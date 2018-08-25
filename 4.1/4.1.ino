@@ -14,5 +14,8 @@ void loop() {
   if(moisture > ML) {
       digitalWrite(LED_BUILTIN, HIGH);
   } 
+  else{
+    digitalWrite(LED_BUILTIN, LOW);
+  }
   delay(1000);
 }
